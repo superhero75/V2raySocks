@@ -4,7 +4,7 @@ if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
 $_VLANG['locale'] = "en";
 
-$_VLANG['subscribe'] = "subscribe";
+$_VLANG['subscribe'] = "Subscription link";
 $_VLANG['resetToken'] = "resetToken";
 $_VLANG['url'] = "url";
 //ClientArea
