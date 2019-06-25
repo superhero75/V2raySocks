@@ -209,14 +209,14 @@ background-color: rgba(0, 0, 0, .3);
                             <tr>
                                 <th>{V2raySocks_get_lang('name')}</th>
                                 <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('address')}</th>
-                                <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('port')}</th>
+<!--                            <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('port')}</th>
                                 <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('type')}</th>
                                 <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('host')}</th>
                                 <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('path')}</th>
                                 <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('network')}</th>
                                 <th class="hidden-xs hidden-sm">TLS</th>
                                 <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('trafficrate')}</th>
-                                <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('alterId')}</th>
+                                <th class="hidden-xs hidden-sm">{V2raySocks_get_lang('alterId')}</th> -->
                                 <th>{V2raySocks_get_lang('action')}</th>
                             </tr>
                         </thead>
@@ -226,14 +226,14 @@ background-color: rgba(0, 0, 0, .3);
                             <tr>
                                 <td>{$node[0]}</td>
                                 <td class="hidden-xs hidden-sm">{$node[1]}</td>
-                                <td class="hidden-xs hidden-sm">{$node[2]}</td>
+                           <!-- <td class="hidden-xs hidden-sm">{$node[2]}</td>
                                 <td class="hidden-xs hidden-sm">{if ($node[3])}{$node[3]}{else}X{/if}</td>
                                 <td class="hidden-xs hidden-sm">{if ($node[5])}{$node[5]}{else}X{/if}</td>
                                 <td class="hidden-xs hidden-sm">{if ($node[6])}{$node[6]}{else}X{/if}</td>
                                 <td class="hidden-xs hidden-sm">{if ($node[7])}{$node[7]}{else}X{/if}</td>
                                 <td class="hidden-xs hidden-sm">{if ($node[4])}{$node[4]}{else}X{/if}</td>
                                 <td class="hidden-xs hidden-sm">{if ($node[8])}{$node[8]}{else}1{/if}</td>
-                                <td class="hidden-xs hidden-sm">{if ($node[9])}{$node[9]}{else}64{/if}</td>
+                                <td class="hidden-xs hidden-sm">{if ($node[9])}{$node[9]}{else}64{/if}</td> -->
                                 <td data-hook="action">
                                         <button name="qrcode" class="btn btn-primary btn-xs" data-type="vmess{V2raySocks_get_lang('show_QRcode')}" data-params="{$node['url']['ios']|unescape:"htmlall"}">
                                             <i class="fa fa-qrcode"></i>
