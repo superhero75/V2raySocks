@@ -146,8 +146,7 @@ background-color: rgba(0, 0, 0, .3);
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>All</td>
-                                    <td>
+                                    <td>Click on button and paste into the 007 App.
                                         <button name="url" class="btn btn-primary btn-xs btyurlothers" data-unit=".btyurlothers" data-params="https://{$HTTP_HOST}/modules/servers/V2raySocks/osubscribe.php?sid={$serviceid}&token={$subscribe_token}" data-done="{V2raySocks_get_lang('copy_success')}">
                                                 <i class="fa fa-code"></i>
                                                 {V2raySocks_get_lang('copy')}
