@@ -5,7 +5,7 @@ if (!defined("WHMCS")) die("This file cannot be accessed directly");
 $_VLANG['locale'] = "en";
 
 $_VLANG['subscribe'] = "Subscription link";
-$_VLANG['resetToken'] = "resetToken";
+$_VLANG['resetToken'] = "Reset Token";
 $_VLANG['url'] = "url";
 //ClientArea
 $_VLANG['error_Service_Disable'] = "Error. Your Service might be down. Please refresh or contact the support";
